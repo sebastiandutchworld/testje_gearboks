@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<data>
+		<menuitem
+				id="dws_import_saleorders_menu"
+				name="Import Saleorders"
+				action="import_saleorder_wizard_action"
+				parent="sale.sale_order_menu"
+				groups="sales_team.group_sale_manager"
+		/>
+	</data>
+</odoo>
